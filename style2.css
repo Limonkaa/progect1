@@ -1,0 +1,36 @@
+body{
+    background-color: #FFF3E4;
+}
+.header{
+    background-color: #EED6C4;
+    border: 2px solid #483434;
+    height: 6em;
+}
+.header .logo{
+    float: left;
+    margin-right: 15px; 
+}
+.header .slogan{
+  
+    font-size: 20px;
+    color: #6B4F4F;
+}
+.lists{
+    color:#6B4F4F ;
+    padding: 20px;
+}
+.center{
+     text-align: center;
+}
+.f{
+    border: #483434 3px solid;
+}
+.footer{
+    background-color: #EED6C4;
+    border: 2px solid #483434;
+    height: 3em;
+    font-size: 16px;
+    color:#6B4F4F ;
+    text-align: center;
+  
+ }
