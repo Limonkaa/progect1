@@ -18,12 +18,16 @@ body{
 .lists{
     color:#6B4F4F ;
     padding: 20px;
+    font-size: 20px;
+ 
 }
 .center{
      text-align: center;
 }
 .f{
     border: #483434 3px solid;
+   
+
 }
 .footer{
     background-color: #EED6C4;
@@ -34,3 +38,26 @@ body{
     text-align: center;
   
  }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    font-size: 20px;
+    color: #6B4F4F;
+    padding: 20px;
+   margin-left: 15px;
+    flex: 0.5;
+    order: 1;
+}
+.center{
+    width: 700;
+   padding: 20px;
+flex: 2;
+order: 2;
+}
+.lists{
+    flex: 0.5;
+    order: 3;
+}
