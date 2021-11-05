@@ -1,0 +1,86 @@
+@media(min-width: 300px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+}
+
+body{
+    background-color: #FCF0C8;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FACE7F;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links, a, .contacts{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #630A10;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex ;
+    list-style: none;
+}
+
+.nav-links, li{
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: color 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: hsl(330, 65%, 35%);
+}
+.contacts{
+    padding:  9px 25px;
+    background-color: rgb(255, 165, 0);
+    border: none;
+    border-radius: 50px;
+    transition: background-color color 0.3s ease 0s;
+
+}
+.contacts :hover{
+   background-color: rgba(233, 155, 10, 0.651);
+}
+
+.container{
+    display: flex;
+   
+}
+.main{
+    flex: 2;
+    order: 2;
+    border: 2px solid orange;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #630A10;
+    padding: 10px;
+}
+.sidebar{
+    flex: 0.5;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color:  #630A10;
+    border: 2px solid orange;
+
+}
+.footer{
+    color:  #630A10;
+   opacity: 0.6;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
