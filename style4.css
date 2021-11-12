@@ -1,0 +1,77 @@
+
+body{
+    background-color: #F0E9D2;
+}
+.my-icon{
+    font-size: 50px;
+
+}
+.header{
+    display: flex;
+    background-color: #E6DDC4;
+    justify-content: space-between;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #678983;
+    padding: 10px;
+    margin: 0;
+}
+.logo{
+    flex: 0.1;
+    margin-right: auto;
+    cursor: pointer; 
+    justify-content: flex-start;  
+}
+.slogan{
+    flex: 1;
+    justify-content: end;
+}
+.footer{
+    color: #678983;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 1px #181D31 solid;
+    height: 90px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+
+}
+
+.article{
+    flex: 2;
+    order: 2;
+    color: #678983;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border: 1px #181D31 solid;
+}
+.nav-links{
+    flex: 1;
+    order: 1;
+    padding: 5px;
+    
+}
+.o, a{
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #678983;
+    transition: color 0.3s ease 0s;
+}
+.o, a:hover{
+    color: brown;
+}
+.ads{
+    flex: 1;
+    order: 3;
+    padding: 5px;
+    margin: 10px;
+    
+}
